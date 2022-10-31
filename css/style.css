@@ -1,134 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;500;700;800&display=swap");
 × {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    min-height: 100vh;
-    width: 100vw;
-    line-height: 1.6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
+  width: 100vw;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .page-header {
-    width: 100vw;
-    padding-bottom: 10px;
+  width: 100vw;
+  padding-bottom: 10px;
 }
 
 .nav-linkovi li {
-    font-size: 1.125rem;
-    margin-left: 30px;
-    float: right;
+  font-size: 1.125rem;
+  margin-left: 30px;
+  float: right;
 }
 
 .nav-linkovi a {
-    color: #000;
+  color: #000;
 }
 
 .logo {
-    color: #000;
-    font-size: 1.125rem;
-    font-weight: 800;
-    float: left;
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 800;
+  float: left;
 }
 
 .logo:hover,
 .logo:focus {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 .nav-linkovi a:hover,
 .nav-linkovi a:focus {
-    border-bottom: 8px solid black;
-    padding-bottom: 13px;
-    color: #000;
-    text-decoration: none;
+  border-bottom: 8px solid black;
+  padding-bottom: 13px;
+  color: #000;
+  text-decoration: none;
 }
 
 .banner-img {
-    position: absolute;
-    height:100%;
-    width: 100%;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
 }
 
-.banner {    
-    height: 100vh;
-    width: 100vw;
+.banner {
+  height: 100vh;
+  width: 100vw;
 }
 
 .inner-slide {
-    position: relative;
-    height: calc(100vh - 53px);
-    width: 100vw;
+  position: relative;
+  height: calc(100vh - 53px);
+  width: 100vw;
 }
 .hero-text {
-    color: rgb(255, 255, 255);
-    font-size: 72px;
-    font-weight: 700;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 2;
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
 }
 
-#sekcija-1{
-    font-size: 1rem;
-    line-height: 1.625rem;
-    margin: 7rem;
-    padding: 4rem;
-    width: 116ch;
+#sekcija-1 {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  margin: 7rem;
+  padding: 4rem;
+  width: 116ch;
 }
 
 .sekcija-modal {
-    font-weight: 100;
-    background-color: rgb(228, 228, 228);
-    width: 100%;
-    height: 100%;
-    padding: 8rem;
+  font-weight: 100;
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  height: 100%;
+  padding: 8rem;
 }
 
 #modal-title {
-    font-weight: 100;
-    font-size: 2.25rem;
-    letter-spacing: 0.2rem;
+  font-weight: 100;
+  font-size: 2.25rem;
+  letter-spacing: 0.2rem;
 }
 
-.modal-gumb{
-    display: flex;
-    justify-content: center;
-    margin-top: 1.4rem;
+.modal-gumb {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.4rem;
 }
 
 #modal-button {
-    color: #000;
-    border: 1px solid black;
-    border-radius: 0.4rem;
-    background-color: white;
-    padding: 0.5rem 4rem;
+  color: #000;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 0.5rem 4rem;
 }
 
 #modal-button:hover,
@@ -137,62 +137,62 @@ body {
 }
 
 #sekcija-2 {
-    margin: 6rem;
-    font-weight: 100;
+  margin: 6rem;
+  font-weight: 100;
 }
 #sekcija-2 h1 {
-    font-weight: 100;
-    font-size: 24px;
-    line-height: 26px;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 26px;
 }
 
 .title-2 {
-    font-size: 2.25rem;
-    font-weight: 100;
-    padding: 1em;
-    margin-bottom: 2em;
-    position: relative;
+  font-size: 2.25rem;
+  font-weight: 100;
+  padding: 1em;
+  margin-bottom: 2em;
+  position: relative;
 }
 
-.title-2::before{
-    content: '';
-    display: block;
-    background: rgb(228, 228, 228);
-    width: 18.75rem;
-    height: 1.5px;
-    position: absolute;
-    right: 95%;
-    top: 50%;
+.title-2::before {
+  content: "";
+  display: block;
+  background: rgb(228, 228, 228);
+  width: 18.75rem;
+  height: 1.5px;
+  position: absolute;
+  right: 95%;
+  top: 50%;
 }
-.title-2::after{
-    content: '';
-    display: block;
-    background: rgb(228, 228, 228);
-    width: 18.75rem;
-    height: 1.5px;
-    position: absolute;
-    left: 95%;
-    top: 50%;
+.title-2::after {
+  content: "";
+  display: block;
+  background: rgb(228, 228, 228);
+  width: 18.75rem;
+  height: 1.5px;
+  position: absolute;
+  left: 95%;
+  top: 50%;
 }
 #sekcija-2 img {
-    width: 100%;
+  width: 100%;
 }
 
 #tekst-1 {
-    margin-bottom: 7rem;
+  margin-bottom: 7rem;
 }
 
 .more {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    border: 1px solid black;
-    border-radius: 0.4rem;
-    background-color: white;
-    padding: 0.5rem 4rem ;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  background-color: white;
+  padding: 0.5rem 4rem;
 }
 
 .more a {
-    color: #000;
+  color: #000;
 }
 
 .more:hover,
@@ -201,135 +201,130 @@ body {
 }
 
 footer {
-    color: #ffffff;
-    background-color: rgb(100, 100, 100);
-    width: 100%;
-    padding: 10em;
+  color: #ffffff;
+  background-color: rgb(100, 100, 100);
+  width: 100%;
+  padding: 10em;
 }
 
 footer h5 {
-    font-size: 1.6rem;
-    margin-bottom: 1.6em;
+  font-size: 1.6rem;
+  margin-bottom: 1.6em;
 }
 
 footer li {
-    margin-bottom: 1em;
-    max-width: 50ch;
+  margin-bottom: 1em;
+  max-width: 50ch;
 }
 
 #star {
-    margin-right: 0.4em;
+  margin-right: 0.4em;
 }
 
 #socials {
-    margin-top: 3.125rem;
+  margin-top: 3.125rem;
 }
 
-#socials a{
-    font-size: 1.8rem;
-    color:white;
-    margin: 0.625rem;
+#socials a {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0.625rem;
 }
 
 @media all and (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
 
-    html {
-        overflow-x: hidden;
-    }
+  .hero-text {
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  #sekcija-1 {
+    margin: 1em;
+    max-width: 100%;
+    font-size: 0.9rem;
+    padding: 1em;
+  }
 
-    .hero-text {
-        font-size: 60px;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
-    #sekcija-1 {
-        margin: 1em;
-        max-width: 100%;
-        font-size: 0.9rem;
-        padding: 1em;
-    }
+  #modal-title {
+    font-size: 1.5rem;
+    width: 100%;
+  }
 
-    #modal-title {
-        font-size: 1.5rem; 
-        width: 100%;
-    }
-    
-    #modal-button {
-        padding: 0.3rem 2rem;
-    }
+  #modal-button {
+    padding: 0.3rem 2rem;
+  }
 
-    .sekcija-modal {
-        padding: 3rem;
-    }
-    
-    #sekcija-2 {
-        margin: 2rem;
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 0.9rem;
-    }
+  .sekcija-modal {
+    padding: 3rem;
+  }
 
-    .slika1 {
-        margin-bottom: 20px;
-    }
+  #sekcija-2 {
+    margin: 2rem;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.9rem;
+  }
 
-    .slika2 {
-        margin-top: 20px;
-    }
-    .title-2::before{
-        width: 80px;
-    }
-    .title-2::after{
-        width: 80px;
-    }
+  .slika1 {
+    margin-bottom: 20px;
+  }
 
-    footer {
-        font-size: 0.9rem;
-        width: 100%;
-        padding: 2em;
-    }
+  .slika2 {
+    margin-top: 20px;
+  }
+  .title-2::before {
+    width: 80px;
+  }
+  .title-2::after {
+    width: 80px;
+  }
 
-    #socials {
-        margin-bottom: 2rem;
-    }
+  footer {
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 2em;
+  }
 
+  #socials {
+    margin-bottom: 2rem;
+  }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
-    .hero-text {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
+  .hero-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
 
-    footer {
-        padding: 5em;
-    }
+  footer {
+    padding: 5em;
+  }
 }
 
 @media all and (max-width: 1000px) {
-    html {
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    .title-2::before{
-        width: 120px;
-    }
-    .title-2::after{
-        width: 120px;
-    }
+  .title-2::before {
+    width: 120px;
+  }
+  .title-2::after {
+    width: 120px;
+  }
 
-    .slika1 {
-        margin-bottom: 20px;
-    }
+  .slika1 {
+    margin-bottom: 20px;
+  }
 
-    .slika2 {
-        margin-top: 20px;
-    }
+  .slika2 {
+    margin-top: 20px;
+  }
 }
-
-
-
